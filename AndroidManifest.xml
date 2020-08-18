@@ -233,15 +233,69 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             android:name=".hentai_header"
             android:label="Hentai - Header"
             android:exported="false" >
-	    <intent-filter>
+	    	<intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
-	    </intent-filter>
-	</activity>
-    <activity
+	    	</intent-filter>
+		</activity>
+    	<activity
             android:name=".ab_uw_sharm"
             android:label="Underwater-Sharm El Sheikh"
             android:exported="false" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:name=".one_piece"
+            android:label="Onepiece"
+			android:exported="false" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".hunterxhunter"
+            android:label="HunterxHunter"
+			android:exported="false" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".shingeki_no_kyojin"
+            android:label="Shingeki no Kyojin"
+			android:exported="false" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".kimetsu_no_yaiba"
+            android:label="Kimetsu no Yaiba"
+			android:exported="false" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".my_hero_academia"
+            android:label="My Hero Academia"
+			android:exported="false" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dragon_ball"
+            android:label="Dragon Ball"
+			android:exported="false" >
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
